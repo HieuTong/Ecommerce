@@ -33,6 +33,16 @@ class _FoodPageBodyState extends State<FoodPageBody> {
               image: DecorationImage(
                   fit: BoxFit.cover,
                   image: AssetImage("assets/image/food0.png"))),
+        ),
+        Container(
+          // height: 220,
+          margin: EdgeInsets.only(left: 30, right: 10),
+          decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(30),
+              color: index.isEven ? Color(0xFF69c5df) : Color(0xFF9294cc),
+              image: DecorationImage(
+                  fit: BoxFit.cover,
+                  image: AssetImage("assets/image/food0.png"))),
         )
       ],
     );
